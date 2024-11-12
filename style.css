@@ -118,12 +118,48 @@ nav ul li a{
     font-weight: 200;
 }
 /* section temoignages */
+.info_client{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(235, 230, 230);
+}
+.info >*{
+    margin: 0;
+}
 
-
+.clientcollab{
+    display: flex;
+    flex-direction: row;
+}
+.clientcollab p{
+    font-size: 15px;
+}
+.clientcollab h2{
+    font-size: 15px;
+}
+.etoile{
+    letter-spacing: 13  px;
+}
+.contenertemoignages{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toutlesavieclient{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 /* avatar */
 .avatar{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border: solid 1px black;
     border-radius: 100%;
     object-fit: cover;
