@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body,html{
+    margin: 0;
+    font-family: "Sour Gummy", sans-serif;
+    overflow-y: scroll; 
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+    display: none; 
+  }
+  .title{
+    font-size: 40px;
+}
+
+/* bar de anvigation */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    font-weight: 400;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* section presentation */
+.presentation{
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 50px 20px 50px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.information h2{
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0;
+}
+.information h1{
+    font-weight:500;
+    font-size: 50px;
+    margin: 0;
+}
+.information p{
+    width: 500px;
+    margin: 0;
+}
+.contacter_moi{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 20px 45px 20px 45px;
+    width: fit-content;
+    margin-top: 20px;
+}
+
+.imgPresentation{
+    width: 500px;
+    margin-left: auto;
+}
+/* section competance */
+.allcompetence{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 150px 50px 50px 50px;
+}
+.Compétence{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Compétence img{
+    width: 120px;
+    height: 120px;
+    margin: 0;
+}
+.Compétence p{
+    text-align: center;
+    width: 300px;
+    margin: 0;
+}
+/* section realisation/project */
+.realisations{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.wrapcontener{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.project img{
+    width: 390px;
+    height: 300px;
+}
+.project h2{
+    margin: 5px;
+}
+.project p{
+    font-weight: 200;
+}
+/* section temoignages */
+
+
+/* avatar */
+.avatar{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+ }
+
+/* fotter */
+footer{
+    padding: 30px;
+}
+.conatce{
+    display: flex;
+    align-items: flex-end;
+}
+.conatce a{
+    margin-left: 50px;
+}
+.conatce p{
+    width:700px;
+    margin: 0;
+}
+.listecontacte{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.listecontacte li{
+    list-style: none;
+}
+.listecontacte li img{
+    width: 30px;
+    height: 30px;
+}
+
