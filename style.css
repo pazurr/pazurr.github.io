@@ -10,6 +10,7 @@ body,html{
 
 .title{
     font-size: 40px;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 .noir{
@@ -18,6 +19,7 @@ body,html{
 
 /* bar de anvigation */
 header{
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,6 +29,8 @@ header{
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 0;
+    font-family: "Sour Gummy", sans-serif;
+
 }
 
 nav ul{
@@ -65,15 +69,8 @@ nav ul li a:hover::before {
 #presentation{
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px 50px 20px 50px;
-    background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C);
-    color: #fff;
-    font-family: 'Chakra Petch', sans-serif;
-    display: flex;
-    align-items: center;
-    padding: 20px 50px 20px 50px;
-     background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C); 
+    padding: 20px 0px 20px 50px;
+    background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C); 
     color: #fff; 
     font-family: 'Chakra Petch', sans-serif; 
     height: 70vh;
@@ -84,16 +81,19 @@ nav ul li a:hover::before {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-family: "Sour Gummy", sans-serif;
     color: #000000;
 }
 .information h2{
     font-weight: 200;
     font-size: 30px;
+    font-family: "Sour Gummy", sans-serif;
     margin: 0;
 }
 .information h1{
     font-weight:500;
     font-size: 50px;
+    font-family: "Sour Gummy", sans-serif;
     margin: 0;
 }
 .information p{
@@ -195,6 +195,7 @@ nav ul li a:hover::before {
     margin: 0;
 }
 
+
 .clientcollab{
     display: flex;
     flex-direction: row;
@@ -206,10 +207,10 @@ nav ul li a:hover::before {
     font-size: 15px;
 }
 .etoile{
-    letter-spacing: 13  px;
+    letter-spacing: 13px;
 }
 #contenertemoignages{
-    padding: 40px;
+    padding: 40px 40px 40px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -249,7 +250,7 @@ footer{
     margin-left: 50px;
 }
 .conatce p{
-    width:700px;
+    width:600px;
     margin: 0;
 }
 .listecontacte{
@@ -279,4 +280,14 @@ footer{
 }
 .fleche:hover{
     filter: drop-shadow(0px 0px 10px grey);
+}
+
+.progress_bar{
+    height: 10px;
+    width: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #392E2C;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
