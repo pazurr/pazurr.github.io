@@ -5,6 +5,7 @@ body,html{
     overflow-y: scroll; 
     scrollbar-width: none;
     scroll-behavior: smooth;
+    background-color: aliceblue;
 }
 
 .title{
@@ -18,7 +19,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 25px 10px 25px;
+    background: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
+
 nav ul{
     display: flex;
     list-style: none;
@@ -52,7 +56,7 @@ nav ul li a:hover::before {
     transform: scaleX(1);
 }
 /* section presentation */
-.presentation{
+#presentation{
     display: flex;
     align-items: flex-end;
     padding: 20px 50px 20px 50px;
@@ -93,36 +97,36 @@ nav ul li a:hover::before {
     color: black;
 }
 
-.imgPresentation{
+#presentation img{
     width: 500px;
     margin-left: auto;
 }
 /* section competance */
-.allcompetence{
+#allcompetence{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 150px 50px 50px 50px;
 }
-.Compétence{
+.competence{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.Compétence img{
+.competence img{
     width: 120px;
     height: 120px;
     margin: 0;
     object-fit: cover;
 }
-.Compétence p{
+.competence p{
     text-align: center;
     width: 300px;
     margin: 0;  
 }
 /* section realisation/project */
-.realisations{
+#realisations{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -176,7 +180,7 @@ nav ul li a:hover::before {
 .etoile{
     letter-spacing: 13  px;
 }
-.contenertemoignages{
+#contenertemoignages{
     padding: 40px;
     display: flex;
     flex-direction: column;
