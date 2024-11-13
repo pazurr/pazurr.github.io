@@ -12,6 +12,10 @@ body,html{
     font-size: 40px;
 }
 
+.noir{
+    color: black;
+}
+
 /* bar de anvigation */
 header{
     display: flex;
@@ -21,6 +25,8 @@ header{
     padding: 10px 25px 10px 25px;
     background: white;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 0;
 }
 
 nav ul{
@@ -58,13 +64,27 @@ nav ul li a:hover::before {
 /* section presentation */
 #presentation{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     padding: 20px 50px 20px 50px;
+    background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C);
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+     background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C); 
+    color: #fff; 
+    font-family: 'Chakra Petch', sans-serif; 
+    height: 70vh;
+    justify-content: center;
+    background-attachment: fixed;
 }
 .information{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color: #000000;
 }
 .information h2{
     font-weight: 200;
@@ -98,7 +118,7 @@ nav ul li a:hover::before {
 }
 
 #presentation img{
-    width: 500px;
+    width: 600px;
     margin-left: auto;
 }
 /* section competance */
@@ -107,6 +127,9 @@ nav ul li a:hover::before {
     flex-direction: row;
     justify-content: space-between;
     padding: 150px 50px 50px 50px;
+    -webkit-box-shadow: -1px 4px 34px -10px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 4px 34px -10px rgba(0,0,0,1);
+    box-shadow: -1px 4px 34px -10px rgba(0,0,0,1);
 }
 .competence{
     display:flex;
@@ -123,7 +146,7 @@ nav ul li a:hover::before {
 .competence p{
     text-align: center;
     width: 300px;
-    margin: 0;  
+    margin: 0;
 }
 /* section realisation/project */
 #realisations{
@@ -132,6 +155,10 @@ nav ul li a:hover::before {
     justify-content: center;
     flex-direction: column;
     padding: 30px;
+    background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C);
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    background-attachment: fixed;
 }
 .wrapcontener{
     display: flex;
@@ -162,6 +189,7 @@ nav ul li a:hover::before {
     flex-direction: column;
     padding: 30px;
     background-color: rgb(235, 230, 230);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 .info >*{
     margin: 0;
@@ -186,6 +214,9 @@ nav ul li a:hover::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    -webkit-box-shadow: -1px 4px 34px -10px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 4px 34px -10px rgba(0,0,0,1);
+    box-shadow: -1px 4px 34px -10px rgba(0,0,0,1);
 }
 .toutlesavieclient{
     display: flex;
@@ -205,6 +236,10 @@ nav ul li a:hover::before {
 /* fotter */
 footer{
     padding: 30px;
+    background: linear-gradient(45deg, #FFAE9D, #FAF2EA, #B39188, #CCAEA4, #392E2C);
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    background-attachment: fixed;
 }
 .conatce{
     display: flex;
