@@ -6,85 +6,93 @@
     <title>Mon portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href = "typewriter/typewriter.css" rel = "stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head> 
 <body>
     <header id="header">
         <h1>Mon portfolio</h1>
         <nav>
-            <ul>
+            <ul class="liste">
                 <li><a href="#allcompetence">Mes competences</a></li>
                 <li><a href="#realisations">Réalisation</a></li>
                 <li><a href="#contenertemoignages">Témoignages</a></li>
                 <li><a href="#footer">Contact</a></li>
             </ul>
+            <img src="img/suite (1).png" alt="img nav bar" class="btnnavbar">
         </nav>
     </header>
     <main>
         <section id="presentation">
             <div class="information">
                 <h2 class="noir">Eythan Payet</h2>
-                <h1 class="noir" id="multipleStrings">développeur web </h1>
+                <h1 class="noir" id="multipleStrings">développeur web</h1>
                 <P class="noir">Je m'appelle Eythan Payet, développeur web de 18 ans en formation. Curieux et passionné par l'informatique, j'aime apprendre et relever des défis. Mon objectif : devenir consultant en intelligence artificielle.</P>
                 <a href="mailto:eythanpayet90@gmail.com" class="contacter_moi" target="_blank">Me contacter</a>
             </div>
                 <img src="img/MacBook Air (2022).png" alt="" class="imgPresentation">
         </section>
         <section id="allcompetence"> 
-            <div class="competence">
-                <img src="img/html (2).png" alt="">
-                <h1>html</h1>
-                <p>Je connais les bases du HTML et sais structurer une page web avec les balises essentielles.</p>
-            </div>
-            <div class="competence">
-                <img src="img/css-3 (2).png" alt="">
-                <h1>css</h1>
-                <p>Je maîtrise les fondamentaux du CSS pour styliser une page et gérer la mise en page de manière basique.</p>
-            </div>
-            <div class="competence">
-                <img src="img/script-java (2).png" alt="">
-                <h1>JavaScript</h1>
-                <p>Je débute en JavaScript et sais créer des interactions simples pour dynamiser une page web</p>
+            <h1 class="title noir">Mes compétences !</h1>
+            <div class="competences">
+                <div class="competence" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                    <img src="img/html (2).png" alt="">
+                    <h1>html</h1>
+                    <p>Je connais les bases du HTML et sais structurer une page web avec les balises essentielles.</p>
+                </div>
+                <div class="competence" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                    <img src="img/css-3 (2).png" alt="">
+                    <h1>css</h1>
+                    <p>Je maîtrise les fondamentaux du CSS pour styliser une page et gérer la mise en page de manière basique.</p>
+                </div>
+                <div class="competence" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                    <img src="img/script-java (2).png" alt="">
+                    <h1>JavaScript</h1>
+                    <p>Je débute en JavaScript et sais créer des interactions simples pour dynamiser une page web</p>
+                </div>
             </div>
         </section> 
         <section  id="realisations">
             <h1 class="title noir">Mes dernières réalisations</h1>
-            <div class="wrapcontener">
-                    <div class="project">
+            <div class="wrapcontener" >
+                    <div class="project" data-aos="flip-left">
                         <a href="https://pazurr.github.io/album" target="_blank">
                             <img src="img/image_nirvana.png" alt="img code">
                         </a>
                         <h2 class="noir">album</h2>
                         <p class="noir">html + css</p>
                     </div>
-                    <div class="project noir">
+                    <div class="project noir" data-aos="flip-left">
                         <a href="https://pazurr.github.io/shop/" target="_blank">
                             <img src="img/image_shop.png" alt="img code">
                         </a>
                         <h2 class="noir">shop de chaussur</h2>
                         <p class="noir">html + css +JavaScrip</p>
                     </div>
-                    <div class="project">
+                    <div class="project" data-aos="flip-left">
                         <a href="https://pazurr.github.io/portfolio/" target="_blank">
                             <img src="img/image.png" alt="img code">
                         </a>
                         <h2 class="noir">portfolio</h2>
                         <p class="noir">html + css +JavaScript</p>
                     </div>
-                    <div class="project">
+                    <div class="project" data-aos="flip-left">
                         <a href="#">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJ2W2GVp66yShoMmD7Q1UrB6ZPyxxAVhZpA&s" alt="img code>">
                         </a>
                         <h2 class="noir">project title</h2>
                         <p class="noir">design + web</p>
                     </div>
-                    <div class="project">
+                    <div class="project" data-aos="flip-left">
                         <a href="#">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJ2W2GVp66yShoMmD7Q1UrB6ZPyxxAVhZpA&s" alt="img code>">
                         </a>
                         <h2 class="noir">project title</h2>
                         <p class="noir">design + web</p>
                     </div>
-                    <div class="project">
+                    <div class="project" data-aos="flip-left">
                         <a href="#">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJ2W2GVp66yShoMmD7Q1UrB6ZPyxxAVhZpA&s" alt="img code>">
                         </a>
@@ -96,7 +104,7 @@
         <section  id="contenertemoignages">
             <h1 class="title">Témoignages</h1>
             <div class="toutlesavieclient">
-                <div class="info_client">
+                <div class="info_client" data-aos="zoom-in-right">
                     <p>Petit témoignage d’un client / <br> collaborateur</p>
                     <div class="clientcollab">
                         <img class="avatar" src="https://img.freepik.com/photos-premium/vue-frontale-du-visage-humain-generique-concepts-humeur-futuristes-realite-virtuelle-etc-rendering-3d_1077885-3050.jpg?semt=ais_hybrid" alt="avatar chien cool">
@@ -107,7 +115,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="info_client">
+                <div class="info_client" data-aos="zoom-in-down">
                     <p>Petit témoignage d’un client / <br> collaborateur</p>
                     <div class="clientcollab">
                         <img class="avatar" src="https://img.freepik.com/photos-premium/vue-frontale-du-visage-humain-generique-concepts-humeur-futuristes-realite-virtuelle-etc-rendering-3d_1077885-3050.jpg?semt=ais_hybrid" alt="avatar chien cool">
@@ -118,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="info_client">
+                <div class="info_client" data-aos="zoom-in-down">
                     <p>Petit témoignage d’un client / <br> collaborateur</p>
                     <div class="clientcollab">
                         <img class="avatar" src="https://img.freepik.com/photos-premium/vue-frontale-du-visage-humain-generique-concepts-humeur-futuristes-realite-virtuelle-etc-rendering-3d_1077885-3050.jpg?semt=ais_hybrid" alt="avatar chien cool">
@@ -129,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="info_client">
+                <div class="info_client" data-aos="zoom-in-left">
                     <p>Petit témoignage d’un client / <br> collaborateur</p>
                     <div class="clientcollab">
                         <img class="avatar" src="https://img.freepik.com/photos-premium/vue-frontale-du-visage-humain-generique-concepts-humeur-futuristes-realite-virtuelle-etc-rendering-3d_1077885-3050.jpg?semt=ais_hybrid" alt="avatar chien cool">
@@ -156,10 +164,22 @@
             <li><img src="img/linkedin.png" alt="logo linkedin"><a href="#" class="noir"></a></li>
         </ul>
     </footer>
-    <a href="#header"><img src="img/fleche-droite.png" alt="" class="fleche"></a>
+    <a href="#"><img src="img/fleche-droite.png" alt="" class="fleche"></a>
     <div class="progress_bar"></div>
     <script src="main.js"></script>
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <script src="texte_machin.js"></script>
+    <script>   
+        const menu = document.querySelector(".btnnavbar")
+        const navLinks = document.querySelector(".liste")
+ 
+        menu.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

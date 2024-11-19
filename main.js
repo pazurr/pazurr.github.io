@@ -7,3 +7,6 @@ window.addEventListener('scroll',() =>{
     scrollbar.style.width = scrollPercent + '%';
 
 });
+
+
+  
