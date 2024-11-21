@@ -142,7 +142,7 @@ nav ul li a:hover::before {
 .competences{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -162,7 +162,7 @@ nav ul li a:hover::before {
 }
 .competence p{
     text-align: center;
-    width: 300px;
+    width: 200px;
     margin: 0;
 }
 /* section realisation/project */
